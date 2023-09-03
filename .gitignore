@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# macOS
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Optional: Configuration files
+config.json
