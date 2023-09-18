@@ -13,10 +13,6 @@ connection.connect((err) => {
     console.error('Error connecting to MySQL:', err);
     throw err;
   }
-  //   connection.query("SELECT * FROM Contact", function (err, result, fields) {
-  //   if (err) throw err;
-  //   console.log(result);
-  // });
   console.log('Connected to MySQL database');
 });
 
